@@ -1,0 +1,121 @@
+h1{
+    color: blueviolet;
+}
+html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+        background-image: url(../img/bj.png);
+        text-align: center;
+        font-size: 18px;
+    }
+/*向下翻页*/
+.swiper-button-next{
+    position: absolute;
+    top: auto;
+    bottom: 5%;
+    left: 50%;
+    transform: rotate(-90deg);
+    margin-left: -13.5px;
+}
+/*右上音乐*/
+.swiper-slide .img1{
+    position:absolute;
+    top: 30px;
+    right: 30px;
+}
+/*fooder内容*/
+.footer .img9{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    margin-bottom: 5px;
+   width: 150%;
+}
+.footer{
+    color: #00faac;
+}
+.footer h2{
+    position: absolute;
+    bottom: 120px;
+    left: 130px;
+}
+.footer p{
+    position: absolute;
+    bottom: 90px;
+    left: 90px;
+}
+.footer .img10{
+    position: absolute;
+    left: -80px;
+    bottom: 0;
+    margin-bottom: 10px;
+    width: 120%;
+    height: 70px;
+}
+/*第一屏主体内容*/
+/*herder内容*/
+.s1 .herder .img2{
+    width: 70%;
+    position: absolute;
+    top: 175px;
+    left: 65px;
+}
+.s1 .herder .img3{
+    position: absolute;
+    width: 35px;
+    top: 120px;
+    left: 50px;
+}
+.s1 .herder .img4{
+    position: absolute;
+    width: 65px;
+    top: 90px;
+    right: 40px;
+}
+.s1 .herder .img5{
+    position: absolute;
+    width: 55px;
+    left: 35px;
+    bottom: 180px;
+}
+.s1 .herder .img6{
+    position: absolute;
+    width: 50px;
+    right: 50px;
+    bottom: 210px;
+}
+/*text内容*/
+.text{
+    position: absolute;
+    top: 220px;
+   
+}
+.s1 .text .img7{
+    width: 45%;
+}
+.s1 .text .img8{
+    width: 80%;
+}
+.s1 .text p{
+    background: url(../img/9.png) repeat-y center;
+    width: 60%;
+    margin-left: 80px;
+    border-radius: 15px;
+    font-size: 22px;
+    font-family: 宋体;
+    font-weight: 700;
+}
