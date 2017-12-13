@@ -1,15 +1,8 @@
-h1{
-    color: blueviolet;
-}
 html, body {
       position: relative;
       height: 100%;
     }
-    body {
-      background: #eee;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color:#000;
+    *{
       margin: 0;
       padding: 0;
     }
@@ -30,12 +23,49 @@ html, body {
     left: 50%;
     transform: rotate(-90deg);
     margin-left: -13.5px;
+    width: 17px;
+    height: 34px;
+    background-size: 17px 34px;
+    animation: buttonnxt 2s linear infinite;
+    
+}
+
+@keyframes buttonnxt{
+    0%{
+        button:3%;
+    }
+    100%{
+        button:7%;
+    }
 }
 /*右上音乐*/
-.swiper-slide .img1{
-    position:absolute;
-    top: 30px;
+.mp3btn{
+    position: absolute;
+    top: 20px;
     right: 30px;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #000000c2;
+    border-color: #000000b5;
+    text-align: center;
+    animation: mp3btn 2.5S linear infinite;
+}
+.mp3btn img{
+    margin-top: 5px;
+}
+
+/*动画*/
+@keyframes mp3btn{
+    0%{
+     transform: rotateZ(0deg);
+
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
 }
 /*fooder内容*/
 .footer .img9{
@@ -43,7 +73,7 @@ html, body {
     bottom: 0;
     left:0;
     margin-bottom: 5px;
-   width: 150%;
+    width: 150%;
 }
 .footer{
     color: #00faac;
@@ -79,24 +109,28 @@ html, body {
     width: 35px;
     top: 120px;
     left: 50px;
+    transform-origin: center;
 }
 .s1 .herder .img4{
     position: absolute;
     width: 65px;
     top: 90px;
     right: 40px;
+    transform-origin: center;
 }
 .s1 .herder .img5{
     position: absolute;
     width: 55px;
     left: 35px;
     bottom: 180px;
+    transform-origin: center;
 }
 .s1 .herder .img6{
     position: absolute;
     width: 50px;
     right: 50px;
-    bottom: 210px;
+    bottom: 190px;
+    transform-origin:center;
 }
 /*text内容*/
 .text{
@@ -119,3 +153,114 @@ html, body {
     font-family: 宋体;
     font-weight: 700;
 }
+/*第二屏内容*/
+.s2 .herder h2{
+    padding-top: 40px;
+    color: #00faac;
+}
+.s2 .herder .img14{
+    position: absolute;
+    top:70px;
+    left: 20px;
+    width: 25%;
+}
+.s2 .herder .img13{
+    position: absolute;
+    top:70px;
+    right: 20px;
+    width: 25%;
+}
+.s2 .herder p{
+    color: #00faac9e;
+}
+.s2 .text{
+    background: url(../img/12.png);
+    background-size:100% 100%;
+    width:80%;
+    margin-left: 45px;
+    margin-top: -80px;
+}
+.s2 .text p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    color: #00faac;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    line-height:38px;
+}
+.s2 .text .txt{
+    text-align: center;
+    background: url(../img/9.png) repeat-y center;
+    width: 40%;
+    color: #000;
+    margin-left: 100px;
+    margin-top: -10px;
+    border-radius: 15px;
+    font-size: 22px;
+    font-family: 宋体;
+    font-weight: 700;
+    position: absolute;
+    top: 410px;
+    left:-10px;
+}
+/*第三屏内容*/
+
+.s3 .herder h2{
+    padding-top: 40px;
+    color: #00faac;
+}
+.s3 .herder .img14{
+    position: absolute;
+    top:70px;
+    left: 20px;
+    width: 25%;
+}
+.s3 .herder .img13{
+    position: absolute;
+    top:70px;
+    right: 20px;
+    width: 25%;
+}
+.s3 .herder p{
+    color: #00faac9e;
+}
+.s3 .text{
+    color: aqua
+}
+.s3 .text .zongzi1{
+    position: absolute;
+    top: 20px;
+    left: 190px;
+}
+.s3 .text .zongzi2{
+    position: absolute;
+    top: -50px;
+    left: 290px;
+}
+.s3 .text .zongzi3{
+    position: absolute;
+    top: 80px;
+    left: 320px;
+}
+.s3 .text .zongzi4{
+    position: absolute;
+    top: 200px;
+    left: 290px;
+}
+.s3 .text .zongzi5{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.s3 .text .zongzi6{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+}
+.s3 .text .zongzi7{
+    position: absolute;
+    top: -50px;
+    left: 100px;
+}
+
