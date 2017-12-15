@@ -1,15 +1,17 @@
-
-var swiper = new Swiper('.swiper-container', {
-      direction: 'vertical',
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-     // 如果需要前进后退按钮
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'vertical',
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
     navigation: {
       nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
-    on:{
+          on:{
       init: function(){
         swiperAnimateCache(this); //隐藏动画元素 
         swiperAnimate(this); //初始化完成开始动画
@@ -18,10 +20,7 @@ var swiper = new Swiper('.swiper-container', {
         swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
       } 
     }
-    });
-var mySwiper = new Swiper('.swiper-container',{
-  grabCursor : true,
-})
+  });
 
 var mp3 = document.querySelector("#mp3");
 var mp3btn = document.querySelector(".mp3btn");

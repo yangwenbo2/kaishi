@@ -32,10 +32,11 @@ html, body {
 
 @keyframes buttonnxt{
     0%{
-        button:3%;
+        bottom:3%;
     }
     100%{
-        button:7%;
+        bottom:7%;
+        opacity: 0;
     }
 }
 /*右上音乐*/
@@ -157,6 +158,8 @@ html, body {
 .s2 .herder h2{
     padding-top: 40px;
     color: #00faac;
+    padding-top: 65px;
+    padding-bottom: 10px;
 }
 .s2 .herder .img14{
     position: absolute;
@@ -178,7 +181,7 @@ html, body {
     background-size:100% 100%;
     width:80%;
     margin-left: 45px;
-    margin-top: -80px;
+    margin-top: -50px;
 }
 .s2 .text p{
     margin-left: 10px;
@@ -207,7 +210,8 @@ html, body {
 /*第三屏内容*/
 
 .s3 .herder h2{
-    padding-top: 40px;
+    padding-top: 65px;
+    padding-bottom: 20px;
     color: #00faac;
 }
 .s3 .herder .img14{
@@ -226,41 +230,533 @@ html, body {
     color: #00faac9e;
 }
 .s3 .text{
-    color: aqua
+    color: aqua;
+    line-height: 3rem;
 }
 .s3 .text .zongzi1{
+    margin: auto;
     position: absolute;
     top: 20px;
-    left: 190px;
+    left: 148px;
+    padding-top: 40px;
+    width: 140px;
+    height:90px;
+    background: url(../img/qiu.png)no-repeat;
+    background-size: 100% 100%;
 }
 .s3 .text .zongzi2{
     position: absolute;
     top: -50px;
     left: 290px;
+    width: 50px;
+    background: url(../img/qiu.png)no-repeat;
+    height: 50px;
+    background-size: 100% 100%;
 }
 .s3 .text .zongzi3{
     position: absolute;
     top: 80px;
     left: 320px;
+    width: 50px;
+     background: url(../img/qiu.png)no-repeat;
+    height: 50px;
+    background-size: 100% 100%;
 }
 .s3 .text .zongzi4{
     position: absolute;
     top: 200px;
     left: 290px;
+    width: 50px;
+     background: url(../img/qiu.png)no-repeat;
+    height: 50px;
+    background-size: 100% 100%;
 }
 .s3 .text .zongzi5{
     position: absolute;
     top: 200px;
     left: 100px;
+    width: 50px;
+     background: url(../img/qiu.png)no-repeat;
+    height: 50px;
+    background-size: 100% 100%;
 }
 .s3 .text .zongzi6{
     position: absolute;
     top: 80px;
-    left: 70px;
+    left: 60px;
+    width: 50px;
+     background: url(../img/qiu.png)no-repeat;
+    height: 50px;
+    background-size: 100% 100%;
 }
 .s3 .text .zongzi7{
     position: absolute;
     top: -50px;
     left: 100px;
+    width: 50px;
+    background: url(../img/qiu.png)no-repeat;
+    height: 50px;
+    background-size: 100% 100%;
+}
+.s3 .text .zongzi8{
+    width: 300px;
+    position: absolute;
+    top: 290px;
+    left: 65px;
+    font-size: 16px;
+    line-height: 30px;
+    border-left: 5px solid aqua;
 }
 
+/*第四屏内容*/
+
+.s4 .herder h2{
+    padding-top: 65px;
+    padding-bottom: 20px;
+    color: #00faac;
+}
+.s4 .herder .img14{
+    position: absolute;
+    top:70px;
+    left: 20px;
+    width: 25%;
+}
+.s4 .herder .img13{
+    position: absolute;
+    top:70px;
+    right: 20px;
+    width: 25%;
+}
+.s4 .herder p{
+    color: #00faac9e;
+}
+
+.s4 .text{
+    color: aqua;
+    background: url(../img/kuang.png)no-repeat;
+    background-size: 100% 100%;
+    height: 650px;
+    width: 400px;
+    margin-left: 8px;
+    margin-top: -170px;
+    float: left;
+}
+.s4 .text .shang{
+    float: left;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+.s4 .text .shang p{
+    width: 100px;
+    float: left;
+}
+.s4 .text .shang img{
+    width: 15%;
+}
+.s4 .text .dian1{
+    padding-left: -10px;
+    padding-right: 30px;
+}
+.s4 .text .diant{
+    position: absolute;
+    top: -5px;
+    left: -20px;
+}
+.s4 .text .dianu{
+    position: absolute;
+    top: -5px;
+    left: 110px;
+}
+.s4 .text .zhong{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.s4 .text .one h4{
+    position: absolute;
+    top: -10px;
+    left: -80px;
+    width: 200px;
+}
+.s4 .text .one h4 img{
+        width: 10%;
+        margin-right: 15px;
+        animation: buttoni 2s linear infinite;
+    }
+.s4 .text .zhong .one .btn1{
+    position: absolute;
+    top: 25px;
+    left: -80px;
+    height: 20px;
+    width: 350px;
+    color: #26f9b2;
+}
+.s4 .text .zhong .one .btn1 img{
+    width: 80%;
+    height: 15px;
+    margin-right: 10px;
+}
+.s4 .text .zhong .one .btn2{
+    position: absolute;
+    top: 50px;
+    left: -140px;
+    height: 20px;
+    width: 350px;
+    color: #0087be;
+}
+.s4 .text .zhong .one .btn2 img{
+    width: 40%;
+    height: 15px;
+    margin-right: 10px;
+}
+
+
+.s4 .text .two h4{
+    position: absolute;
+    top: 100px;
+    left: -85px;
+    width: 200px;
+}
+.s4 .text .two h4 img{
+        width: 10%;
+        margin-right: 15px;
+    animation: buttoni 2s linear infinite;
+    }
+.s4 .text .zhong .two .btn1{
+    position: absolute;
+    top: 130px;
+    left: -80px;
+    height: 20px;
+    width: 350px;
+    color: #26f9b2;
+}
+.s4 .text .zhong .two .btn1 img{
+    width: 60%;
+    height: 15px;
+    margin-right: 8px;
+    margin-left: -50px;
+}
+.s4 .text .zhong .two .btn2{
+    position: absolute;
+    top: 155px;
+    left: -140px;
+    height: 20px;
+    width: 350px;
+    color: #0087be;
+}
+.s4 .text .zhong .two .btn2 img{
+    width: 40%;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.s4 .text .three h4{
+    position: absolute;
+    top: 200px;
+    left: -90px;
+    width: 200px;
+}
+.s4 .text .three h4 img{
+        width: 10%;
+        margin-right: 15px;
+        animation: buttoni 2s linear infinite;
+    }
+.s4 .text .zhong .three .btn1{
+    position: absolute;
+    top: 230px;
+    left: -80px;
+    height: 20px;
+    width: 350px;
+    color: #26f9b2;
+}
+.s4 .text .zhong .three .btn1 img{
+    width: 50%;
+    height: 15px;
+    margin-right: 8px;
+    margin-left: -110px;
+}
+.s4 .text .zhong .three .btn2{
+    position: absolute;
+    top: 255px;
+    left: -140px;
+    height: 20px;
+    width: 350px;
+    color: #0087be;
+}
+.s4 .text .zhong .three .btn2 img{
+    width: 40%;
+    height: 15px;
+    margin-right: 10px;
+}
+.s4 .text .zhong .fore{
+    position: absolute;
+    top: 290px;
+    left: -50px;
+    width: 300px;
+    font-size: 14px;
+}
+
+
+@keyframes buttoni{
+    0%{
+        left:0;
+        opacity: 1;
+    }
+    100%{
+        left:7%;
+        opacity: 0;
+    }
+}
+
+/*第五屏内容*/
+
+.s5 .herder h2{
+    padding-top: 65px;
+    padding-bottom: 20px;
+    color: #00faac;
+}
+.s5 .herder .img14{
+    position: absolute;
+    top:70px;
+    left: 20px;
+    width: 25%;
+}
+.s5 .herder .img13{
+    position: absolute;
+    top:70px;
+    right: 20px;
+    width: 25%;
+}
+.s5 .herder p{
+    color: #00faac9e;
+}
+
+.s5 .text .div1{
+    background: url(../img/renbg.png);
+    background-size: 100% 100%;
+    width: 130px;
+    height: 160px;
+    color: #00faac;
+    font-size: 14px;
+    margin-top: -40px;
+    margin-left: 45px;
+}
+.s5 .text .div1 img{
+    width: 90%;
+}
+.s5 .text .div1 p:nth-of-type(1){
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+.s5 .text .div1 p:nth-of-type(2){
+    width: 100px;
+    margin-left: 15px;
+    background: url(../img/9.png);
+    color: #000;
+    background-size: 100% 100%;
+}
+
+.s5 .text .div2{
+    background: url(../img/renbg.png);
+    background-size: 100% 100%;
+    width: 130px;
+    height: 160px;
+    color: #00faac;
+    font-size: 14px;
+    margin-top: -160px;
+    margin-left: 225px;
+}
+.s5 .text .div2 img{
+    width: 90%;
+}
+.s5 .text .div2 p:nth-of-type(1){
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+.s5 .text .div2 p:nth-of-type(2){
+    width: 100px;
+    margin-left: 15px;
+    
+    background: url(../img/9.png);
+    color: #000;
+    background-size: 100% 100%;
+}
+.s5 .text .div3{
+    background: url(../img/renbg.png);
+    background-size: 100% 100%;
+    width: 130px;
+    height: 160px;
+    color: #00faac;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+.s5 .text .div3 img{
+    width: 90%;
+}
+.s5 .text .div3 p:nth-of-type(1){
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+.s5 .text .div3 p:nth-of-type(2){
+    width: 100px;
+    margin-left: 15px;
+    background: url(../img/9.png);
+    color: #000;
+    background-size: 100% 100%;
+}
+.s5 .text .div4{
+    background: url(../img/renbg.png);
+    background-size: 100% 100%;
+    width: 130px;
+    height: 160px;
+    color: #00faac;
+    font-size: 14px;
+    margin-top: -160px;
+    margin-left: 225px;
+}
+.s5 .text .div4 img{
+    width: 90%;
+}
+.s5 .text .div4 p:nth-of-type(1){
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+.s5 .text .div4 p:nth-of-type(2){
+    width: 100px;
+    margin-left: 15px;
+    
+    background: url(../img/9.png);
+    color: #000;
+    background-size: 100% 100%;
+}
+
+/*第六屏内容*/
+
+.s6 .herder h2{
+    padding-top: 65px;
+    padding-bottom: 20px;
+    color: #00faac;
+}
+.s6 .herder .img14{
+    position: absolute;
+    top:70px;
+    left: 20px;
+    width: 25%;
+}
+.s6 .herder .img13{
+    position: absolute;
+    top:70px;
+    right: 20px;
+    width: 25%;
+}
+.s6 .herder p{
+    color: #00faac9e;
+}
+
+.s6 .text{
+    margin-top: -40px;
+    margin-left: 30px;
+    border-left:1px dashed #09ebc6;
+}
+.s6 .text .p1{
+    background: url(../img/s6.png);
+    background-size: 100% 100%;
+    width: 300px;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.s6 .text .p1 i{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(../img/dianzuo.png);
+    background-size: cover;
+    position: absolute;
+    top: -10px;
+    left: -20px;
+}
+.s6 .text .p1:nth-of-type(2) i{
+    position: absolute;
+    top: 120px;
+    left: -20px;
+}
+.s6 .text .p1:nth-of-type(3) i{
+    position: absolute;
+    top: 250px;
+    left: -20px;
+}
+.s6 .text .ss {
+    background: url(../img/s6bg.png);
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    color:aquamarine;
+    font-size: 12px;
+    text-align: left;
+    padding: 10px 0 10px 20px;
+    line-height: 1.2rem;
+}
+.s6 .text .p1:nth-of-type(2){
+    margin-top: 20px;
+}
+.s6 .text .p1:nth-of-type(3){
+    margin-top: 20px;
+}
+
+/*第六屏内容*/
+
+.s7 .herder h2{
+    padding-top: 65px;
+    padding-bottom: 20px;
+    color: #00faac;
+}
+.s7 .herder .img14{
+    position: absolute;
+    top:70px;
+    left: 20px;
+    width: 25%;
+}
+.s7 .herder .img13{
+    position: absolute;
+    top:70px;
+    right: 20px;
+    width: 25%;
+}
+.s7 .herder p{
+    color: #00faac9e;
+}
+
+.s7 .text{
+    background: url(../img/renbg.png);
+    background-size: 100% 100%;
+    width: 300px;
+    height: 400px;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+.s7 .text input{
+    height: 50px;
+    width: 80%;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.s7 .text input:nth-of-type(1){
+    margin-top: 30px;
+}
+.s7 .text button{
+    height: 50px;
+    width: 80%;
+    margin-top: 20px;
+    background-color: aqua;
+    border: none;
+}
+.s7 .text p{
+    color: aquamarine;
+    margin-top: 20px;
+    font-size: 16px;
+    width: 80%;
+    margin-left: 30px;
+}
