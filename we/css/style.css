@@ -1,3 +1,33 @@
-h2{
-    color: red;
+body{
+    width: 100%;
+    color:blanchedalmond;
+    background: url(../img/15296.jpg);
+}
+h1{
+    text-align: center;
+}
+
+.main{
+    width: 500px;
+    margin: 0 auto;
+    border: 5px solid  blanchedalmond;
+    padding: 20px;
+    border-radius: 20px;
+}
+.text{
+    text-align: center;
+    width: 500px;
+    height: 417px;
+    background: url(../img/3.jpg);
+}
+.text2{
+    text-align: center;
+}
+.text2 a{
+    text-decoration: none;
+    color:blue;
+    font-size: 24px;
+}
+.text2 a:hover{
+    color: #fff;
 }
